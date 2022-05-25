@@ -10,7 +10,8 @@ The c2b2 cluster have two principal directories we are going to use. Here ehs st
 ## Steps and cooking book
 
 1. Connect to the cluster...
-   -  ssh 
+   -  ssh ...
+
 2. **Installing packages:** Packages are installed in the home director, I prefer using anaconda which is installed in the cluster. Also, as a general good practice I like using envs, see CREATE_ENV.md for how to crete a env.
 
     To install a python package in your home dir you can follow the step below:
@@ -38,7 +39,7 @@ Of course there're multiple ways of creating this scripts, I like having one scr
 #$ -l mem=8G
 #$ -l time=18:30:
 #$ -pe smp 4
-#$ -N inf_01 -j y
+#$ -N name_you_want -j y
 #$ -M jc5647@columbia.edu -m aes
 
 module load anaconda/conda3                      # load anaconda.
