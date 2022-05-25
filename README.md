@@ -2,6 +2,8 @@
 
 The c2b2 cluster have two principal directories we are going to use. Here ehs stands for Environmental Health Sciences cluster and jc5647 is the Columbia user, replace them with your department and your username.
 
+For all the examples in this guide **department** is **ehs** and **username** is **jc5647**. Change them to yours.
+
     1. Home directory:     /ifs/home/msph/ehs/jc5647
         - Here we are going to store all the scripts.
 
@@ -9,8 +11,10 @@ The c2b2 cluster have two principal directories we are going to use. Here ehs st
        - Here we are going to store all the data and results.
 ## Steps and cooking book
 
-1. Connect to the cluster...
-   -  ssh ...
+1. Connect to the cluster... due to security or something idk we need to connect via using the port 59922, or using CyberDuck. The password should be the same one of your email.
+
+   -  ssh -p 59922 jc5647@login.c2b2.columbia.edu
+
 
 2. **Installing packages:** Packages are installed in the home director, I prefer using anaconda which is installed in the cluster. Also, as a general good practice I like using envs, see CREATE_ENV.md for how to crete a env.
 
@@ -48,3 +52,5 @@ cd /ifs/scratch/msph/ehs/jc5647/your_script_path # move to your project director
 
 python hello_world.py
 ```
+
+In general there are 4 important parameters 
