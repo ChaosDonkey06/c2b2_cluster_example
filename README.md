@@ -53,4 +53,4 @@ cd /ifs/scratch/msph/ehs/jc5647/your_script_path # move to your project director
 python hello_world.py
 ```
 
-In general there are 4 important parameters 
+In general there are 4 important parameters
