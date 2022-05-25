@@ -11,7 +11,7 @@ For all the examples in this guide **department** is **ehs** and **username** is
        - Here we are going to store all the data and results.
 ## Steps and cooking book
 
-1. Connect to the cluster... due to security or something idk we need to connect via using the port 59922, or using CyberDuck. The password should be the same one of your email.
+1. Connect to the cluster... due to security or something idk we need to connect via using the port 59922, or using CyberDuck. The password should be the same one of your email. By default when you login you're going to be at your home directory.
 
    -  ssh -p 59922 jc5647@login.c2b2.columbia.edu
 
