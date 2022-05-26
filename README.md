@@ -7,7 +7,7 @@ For all the examples in this guide **department** is **ehs** and **username** is
     1. Home directory:     /ifs/home/msph/ehs/jc5647
         - Here we are going to store all the scripts.
 
-    2. Scratch directory: /ifs/home/msph/ehs/jc5647
+    2. Scratch directory: /ifs/scratch/msph/ehs/jc5647
        - Here we are going to store all the data and results.
 ## Steps and cooking book
 
